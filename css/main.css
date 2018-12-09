@@ -3,6 +3,7 @@ html {
   line-height: 1.5;
   font-family: Lato, sans-serif;
   background-color: #eee9de;
+  vertical-align: middle;
 }
 
 *, *::before, *::after {
@@ -16,6 +17,7 @@ body {
 section {
   display: inline-block;
   padding: 2em 0;
+  text-align: center;
 }
 
 img {
@@ -43,10 +45,10 @@ img {
   display: inline-block;
   border: 1px solid #333;
   border-radius: 8px;
-  padding: .4em .75em .5em;
+  padding: .75em;
   text-decoration: none;
   color: #333;
-
+  text-align: center;
 }
 
 .btn:hover {
