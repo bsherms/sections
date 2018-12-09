@@ -10,20 +10,32 @@ html {
 }
 
 body {
+  margin: 0;
+}
+
+section {
+  display: inline-block;
   margin: 1.5rem;
 }
 
 img {
-  display: block;
+  display: inline-block;
   width: 100%;
   max-width: 25em;
   text-align: center;
 }
 
+.img-box {
+  display: inline-block;
+  width: 50%;
+}
+
 div {
+  width: 25%;
   vertical-align: middle;
   text-align: left;
   display: inline-block;
+  background-color: green;
 }
 
 a {
@@ -32,6 +44,7 @@ a {
 }
 
 .btn {
+  display: inline-block;
   border: 1px solid #333;
   border-radius: 8px;
   padding: .4em .75em .5em;
