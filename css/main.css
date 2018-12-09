@@ -21,18 +21,15 @@ section {
 img {
   display: block;
   width: 100%;
-  max-width: 25em;
-  text-align: center;
 }
 
 .img-box {
   display: inline-block;
-  width: 50%;
+  max-width: 25em;
 }
 
-div {
-  width: 25%;
-  vertical-align: middle;
+.body-copy {
+  max-width: 25em;
   text-align: left;
   display: inline-block;
   background-color: green;
